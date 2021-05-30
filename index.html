@@ -330,7 +330,7 @@
                 var color = d3
                   .scaleOrdinal()
                   .domain(["boss1", "boss2", "boss3"])
-                  .range(["#402D54", "#D18975", "#8FD175"]);
+                  .range(["#264f6d", "#D18975", "#8FD175"]);
 
                 // And a opacity scale
                 var opacity = d3.scaleLinear().domain([10, 30]).range([0.5, 1]);
@@ -375,9 +375,10 @@
                     return d.y0 + 20;
                   }) // +20 to adjust position (lower)
                   .text(function (d) {
-                    return d.data.name.replace("mister_", "");
+                    return d.data.name;
                   })
                   .attr("font-size", "19px")
+                  .style("text-align", "center")
                   .attr("fill", "white");
 
                 // and to add the text labels
