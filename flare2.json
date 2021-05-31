@@ -1,56 +1,28 @@
 {
-   "name":"Technology",
+   "name":"SERVICES",
     "children":[
       {
-         "name":"Internet Information",
+         "name":"CATALOG & MAIL ",
          "children":[
             {
-               "name":"GOOGL",               
-               "value":9.72
-            },
-            {
-               "name":"FB",               
-               "value":8.43
-            },
-            {
-               "name":"DX",               
-               "value":1
-            },
-            {
-               "name":"LK",               
-               "value":1
-            },
-            {
-               "name":"LK",               
-               "value":1
-            },
-            {
-               "name":"",               
-               "value":1
+               "name":"AMZN",               
+               "value":10.13
             }
          ]
       },
       {
-         "name":"Application Software",
+         "name":"Discount",
          "children":[
             {
-               "name":"ADBE",               
+               "name":"WMT",               
                "value":7.46
             },
             {
-               "name":"CRM",               
-               "value":10.08
-            },
-            {
-               "name":"ORCL",               
-               "value":9.55
-            },
-            {
-               "name":"LK",               
+               "name":"COST",               
                "value":1
             },
             {
-               "name":"ICE",               
+               "name":"DG",               
                "value":1
             },
             {
@@ -60,55 +32,14 @@
          ]
       },
       {
-         "name":"Semiconduct",
+         "name":"Entertai",
          "children":[
             {
-               "name":"INTC",               
-               "value":13.71
+               "name":"CMCSA",               
+               "value":11.76
             },
             {
-               "name":"DX",               
-               "value":1
-            },
-            {
-               "name":"TXN",               
-               "value":1
-            },
-            {
-               "name":"AMD",               
-               "value":1
-            },
-            {
-               "name":"ICE",               
-               "value":1
-            },
-            {
-               "name":"DX",               
-               "value":1
-            },
-            {
-               "name":"AR",               
-               "value":1
-            }
-         ]
-      },
-      {
-         "name":"INFORMATION",
-         "children":[
-            {
-               "name":"ACN",               
-               "value":14.77
-            },
-            {
-               "name":"IBM",               
-               "value":13.14
-            },
-            {
-               "name":"MM",               
-               "value":4.9
-            },
-            {
-               "name":"FIS",               
+               "name":"DIS",               
                "value":1
             },
             {
@@ -118,9 +49,38 @@
             {
                "name":"LK",               
                "value":1
+            }
+         ]
+      },
+      {
+         "name":"Bussines",
+         "children":[
+            {
+               "name":"BKNG",               
+               "value":12.08
+            },
+            {
+               "name":"SPGI",               
+               "value":9.32
+            },
+            {
+               "name":"GPN",               
+               "value":1
+            },
+            {
+               "name":"FISV",               
+               "value":1
             },
             {
                "name":"AR",               
+               "value":1
+            },
+            {
+               "name":"ICE",               
+               "value":1
+            },
+            {
+               "name":"FLT",               
                "value":1
             }
          ]

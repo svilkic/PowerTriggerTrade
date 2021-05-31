@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+svg {
+  background-color: #152636;
+}
+
 header {
   padding-top: 5em;
 }
