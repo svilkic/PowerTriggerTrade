@@ -1,5 +1,6 @@
 * {
   color: white;
+  box-sizing: border-box;
 }
 
 body {
@@ -57,6 +58,72 @@ header {
   font-size: 13px !important;
 }
 
+/*Market section*/
+.market-news {
+  background-color: #152636;
+  padding: 0.1em 0.5em !important;
+  margin-bottom: 0.2em;
+}
+.market-news p {
+  font-size: 13px;
+  display: inline;
+}
+.market-time {
+  margin-right: 0.5em;
+}
+.market-img {
+  display: inline;
+  position: relative;
+  margin-right: 0.5em;
+  background-color: #fff;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/*Calendar section*/
+.calendar-box {
+}
+.calendar-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.calendar-img img {
+  width: 25px;
+  height: auto;
+}
+
+.calendar-info p:nth-child(1) {
+  font-size: 15px;
+}
+
+.calendar-info p:nth-child(2) {
+  font-size: 13px;
+}
+
+.calendar-info p {
+  margin-bottom: 0;
+}
+
+.moon-sun {
+  margin-left: 1em;
+  width: 25px;
+  height: auto;
+  filter: invert(100%);
+}
+
+/* Blog posts */
+.blog-box {
+}
+.blog-img {
+  width: 100px;
+}
+
 .border-1 {
   border: 1px solid #5386a1 !important;
 }
@@ -80,6 +147,13 @@ header {
 }
 .bg-three {
   background-color: #5386a1;
+}
+.bg-gradient-one {
+  background: linear-gradient(
+    180deg,
+    rgb(34, 61, 80) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .heatmap {
