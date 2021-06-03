@@ -80,6 +80,14 @@ header {
   max-height: 20px;
 }
 
+/* Heatmap */
+
+@media only screen and (max-width: 600px) {
+  #graph1 {
+    overflow-x: scroll;
+  }
+}
+
 /*Calendar section*/
 .calendar-box {
 }

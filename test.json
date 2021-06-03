@@ -1,0 +1,54 @@
+
+"children":[
+{"name": "AAPL"		,"value":3},
+{"name": "AMZN"		,"value":2},
+{"name": "BA"  	    ,"value":2},
+{"name": "FB"	    ,"value":1},
+{"name": "GOOGL"	,"value":1},
+{"name": "MSFT"		,"value":1},
+{"name": "NFLX"		,"value":1},
+{"name": "SPY"	    ,"value":3},
+{"name": "TSLA"		,"value":3}
+]
+
+"children":[
+{"name":"AMC"  	    ,"value":3},
+{"name":"AMD"  	    ,"value":3},
+{"name":"BB"  	    ,"value":2},
+{"name":"DOCU"		,"value":1},
+{"name":"MTCH"		,"value":1},
+{"name":"NET"  	    ,"value":1},
+{"name":"NIO"  	    ,"value":1},
+{"name":"OSTK"		,"value":1},
+{"name":"ROKU"		,"value":1},
+{"name":"SHOP"		,"value":1},
+{"name":"SPOT"		,"value":1},
+{"name":"SQ"  	    ,"value":1},
+{"name":"TWLO"		,"value":1},
+{"name":"TWTR"		,"value":1}
+]
+
+"children":[
+{"name":"ADBE"   	,"value":1},
+{"name":"AMGN"   	,"value":1},
+{"name":"AVGO"   	,"value":1},
+{"name":"CAT"    	,"value":3},
+{"name":"COST"   	,"value":3},
+{"name":"CRM"    	,"value":1},
+{"name":"DIS"    	,"value":1},
+{"name":"FDX"    	,"value":3},
+{"name":"GS"    	,"value":2},
+{"name":"HD"    	,"value":2},
+{"name":"LULU"   	,"value":1},
+{"name":"MA"    	,"value":1},
+{"name":"MCD"    	,"value":1},
+{"name":"NKE"       ,"value":1},
+{"name":"NVDA"   	,"value":1},
+{"name":"PYPL"   	,"value":1},
+{"name":"UNH"    	,"value":1},
+{"name":"UNP"    	,"value":1},
+{"name":"UPS"    	,"value":2},
+{"name":"V"    	    ,"value":2},
+{"name":"WMT"    	,"value":2},
+{"name":"WYNN"   	,"value":2}
+]
