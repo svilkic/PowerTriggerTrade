@@ -316,11 +316,15 @@
                   .select("#graph1")
                   .append("svg")
                   .attr("width", width + margin.left + margin.right)
-                  .attr("height", height + margin.top + margin.bottom)
+                  .attr("height", height - margin.top - margin.bottom)
                   .append("g")
                   .attr(
                     "transform",
-                    "translate(" + margin.left + "," + margin.top + ")"
+                    "translate(" +
+                      margin.left +
+                      "," +
+                      -(margin.top + margin.bottom + 5) +
+                      ")"
                   );
 
                 // read json data
@@ -428,25 +432,6 @@
                     .attr("font-weight", "500")
                     .style("text-transform", "uppercase")
                     .attr("fill", "white");
-
-                  // Add title for the 3 groups
-                  svg
-                    .append("rect")
-                    .attr("x", 0)
-                    .attr("y", 0) // +20 to adjust position (lower)
-                    .attr("font-size", "19px")
-                    // .attr("y", "30")
-                    .attr("width", width - 5)
-                    .attr("height", "25")
-                    .style("fill", "#264f6d");
-                  svg
-                    .append("text")
-                    .attr("x", 0)
-                    .attr("y", 18) // +20 to adjust position (lower)
-                    .text("TITLE")
-                    .style("text-transform", "uppercase")
-                    .attr("font-size", "19px")
-                    .style("fill", "#fff");
                 });
               }
             </script>
