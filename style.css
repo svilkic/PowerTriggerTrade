@@ -3,6 +3,28 @@
   box-sizing: border-box;
 }
 
+.logo {
+  width: 150px;
+  margin-left: 1em;
+  margin-top: 1em;
+  filter: invert(1);
+}
+.logo img {
+  width: inherit;
+}
+@media only screen and (max-width: 600px) {
+  .logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+
+  .logo {
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
 body {
   overflow-x: hidden;
 }
@@ -12,7 +34,7 @@ svg {
 }
 
 header {
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .section-header {
